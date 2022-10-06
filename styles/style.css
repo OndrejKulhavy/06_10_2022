@@ -1,6 +1,6 @@
 html{
     background-color: black;
-    color: white;
+    color: #ffffff;
 }
 *{
     padding: 0;
@@ -17,6 +17,9 @@ header{
 
 section{
     padding: 20px;
+}
+#logo {
+    padding: 0 20px;
 }
 .header_menu{
     display: flex;
@@ -36,16 +39,3 @@ section{
     color: black;
 }
 
-.food_img{
-    width: 200px;
-    height: 270px;
-    padding: 10px;
-}
-.food_section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-}
